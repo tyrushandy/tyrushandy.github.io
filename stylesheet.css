@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {background-color: black;
+	text-align: center}
+
+h1
+{position: absolute;
+width: 376px;
+height: 311px;
+left: 3px;
+top: 0px;}
+
+p
+{position: absolute;
+width: 379px;
+height: 476px;
+left: 3px;
+top: 319px;
+text-align: left;
+
+font-family: Arial, Helvetica, san-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;}
+
+
+h2
+{position: absolute;
+width: 480px;
+height: 480px;
+left: 400px;
+top: 0px;}
+
+h3
+{position: absolute;
+width: 480px;
+height: 270px;
+left: 402px;
+top: 503px;}
+
+h4
+{position: absolute;
+width: 480px;
+height: 332px;
+left: 903px;
+top: 0px;}
+
+h5
+{position: absolute;
+width: 480px;
+height: 416px;
+left: 903px;
+top: 362px;}
