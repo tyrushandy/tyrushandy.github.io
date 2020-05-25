@@ -4,19 +4,16 @@
 body {background-color: black;
 	text-align: center}
 
-h1
-{position: absolute;
-width: 376px;
-height: 311px;
-left: 3px;
-top: 0px;}
+.lMainFrame{
+	position: absolute;
+	width: 376px;
+	overflow-y: scroll;
+	height:100vh;
+}
 
 p
-{position: absolute;
-width: 379px;
-height: 476px;
-left: 3px;
-top: 319px;
+{
+
 text-align: left;
 
 font-family: Arial, Helvetica, san-serif;
@@ -55,3 +52,30 @@ width: 480px;
 height: 416px;
 left: 903px;
 top: 362px;}
+
+.rMainFrame{
+	position: absolute;
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	height:calc(100vh - 40px);
+	width: calc(100vw - 376px);
+	right:0;
+	overflow: hidden;
+	/* padding:20px; */
+}
+.rMainFrame div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding:10px
+}
+
+.imgContMain{
+	width:100%;
+	cursor: pointer;
+}
+.imgContMain img{
+	width:100%;
+}
