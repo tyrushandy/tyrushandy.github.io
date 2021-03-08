@@ -1,7 +1,7 @@
-function getResume() {
+function getResume(file) {
   const el = document.createElement('a');
-  el.setAttribute('href', 'tyrus-handy-resume.pdf');
-  el.setAttribute('download', "tyrus-handy-resume.pdf");
+  el.setAttribute('href', file);
+  el.setAttribute('download', file);
   el.style.display = 'none';
   document.body.appendChild(el);
   el.click();
